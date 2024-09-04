@@ -1,7 +1,5 @@
 username = "python"
 password = "rules"
-username_input = ""
-password_input = ""
 
 attempts = 0
 while attempts < 5:
@@ -10,6 +8,7 @@ while attempts < 5:
 
     if username_input == username and password_input == password:
         print("Tervetuloa!")
+        break
     else:
         print("Pääsy evätty")
         attempts += 1
