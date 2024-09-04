@@ -7,11 +7,12 @@ def main():
     diameter2 = float(input("Anna toisen pizzan halkaisija: "))
     price2 = float(input("Anna toisen pizzan hinta: "))
 
-    if price_per_m_sq(diameter1, price1) < price_per_sq_m(diameter2, price2):
+    if price_per_m_sq(diameter1, price1) < price_per_m_sq(diameter2, price2):
         print("Ensimmäinen pizza on halvempi!")
-    else:
+    elif price_per_m_sq(diameter1, price1) > price_per_m_sq(diameter2, price2):
         print("Toinen pizza on halvempi!")
-
+    else:
+        print("Pizzat ovat samanhintaisia")
 
 def price_per_m_sq(diameter_cm, price):
     r = diameter_cm / 2
