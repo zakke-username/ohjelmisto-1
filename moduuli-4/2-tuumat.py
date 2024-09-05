@@ -1,4 +1,4 @@
-cm = float(input("Anna pituus senttimetreissä: "))
-while cm >= 0:
-    print(f"Tuumat: {cm * 2.54}")
-    cm = float(input("Anna pituus senttimetreissä: "))
+inches = float(input("Anna pituus tuumissa: "))
+while inches >= 0:
+    print(f"Senttimetrit: {inches * 2.54}")
+    inches = float(input("Anna pituus tuumissa: "))
