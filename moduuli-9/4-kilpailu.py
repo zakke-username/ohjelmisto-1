@@ -1,5 +1,6 @@
 import random
 
+
 def main():
     autot = []
 
