@@ -1,6 +1,5 @@
 n = int(input("Anna numero: "))
 prime = True
-
 if n <= 1:
     prime = False
 else:
