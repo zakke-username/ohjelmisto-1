@@ -2,7 +2,7 @@ airports = {}
 
 def main():
     while True:
-        command = input("Anna komento (uusi/hae/lopeta): ").lower()
+        command = input("\nAnna komento (uusi/hae/lopeta): ").lower()
         if command == "uusi":
             new()
         elif command == "hae":
@@ -21,7 +21,7 @@ def new():
         print("ICAO-koodilla on jo lentokenttä")
 
 def search():
-    icao = input("Hae lentokenttä ICAO-koodilla: ")
+    icao = input("Hae lentokenttää ICAO-koodilla: ")
     if icao in airports:
         print(f"Löytyi: {airports[icao]}")
     else:

@@ -1,6 +1,6 @@
 import random
 
-names = []
+names = set()
 
 while True:
     name = input("Anna nimi: ")
@@ -10,8 +10,7 @@ while True:
         print("Aiemmin syötetty nimi")
     else:
         print("Uusi nimi")
-        names.append(name)
+        names.add(name)
 
-random.shuffle(names)
 for i in names:
     print(i)
