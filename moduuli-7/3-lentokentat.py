@@ -10,7 +10,7 @@ def main():
         elif command == "lopeta":
             return
         else:
-            print("Komennot: uusi, hae, lopeta")
+            print("Tuntematon komento")
 
 def new():
     icao = input("Anna lentokentän ICAO-koodi: ")

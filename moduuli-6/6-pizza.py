@@ -4,7 +4,6 @@ import math
 def main():
     diameter1 = float(input("Anna ensimmäisen pizzan halkaisija: "))
     price1 = float(input("Anna ensimmäisen pizzan hinta: "))
-
     diameter2 = float(input("Anna toisen pizzan halkaisija: "))
     price2 = float(input("Anna toisen pizzan hinta: "))
 
