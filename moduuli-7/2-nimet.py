@@ -1,5 +1,3 @@
-import random
-
 names = set()
 
 while True:
