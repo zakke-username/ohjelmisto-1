@@ -15,10 +15,7 @@ def main():
 def new():
     icao = input("Anna lentokentän ICAO-koodi: ")
     name = input("Anna lentokentän nimi: ")
-    if icao not in airports:
-        airports[icao] = name
-    else:
-        print("ICAO-koodilla on jo lentokenttä")
+    airports[icao] = name
 
 def search():
     icao = input("Hae lentokenttää ICAO-koodilla: ")
