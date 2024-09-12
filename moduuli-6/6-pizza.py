@@ -11,9 +11,9 @@ def main():
     price_area2 = price_per_m_sq(diameter2, price2)
 
     if price_area1 < price_area2:
-        print("Ensimmäinen pizza on halvempi!")
-    if price_area1 > price_area2:
-        print("Toinen pizza on halvempi!")
+        print(f"Ensimmäinen pizza on halvempi! ({price_area1} < {price_area2})")
+    elif price_area1 > price_area2:
+        print(f"Toinen pizza on halvempi! ({price_area1} > {price_area2})")
     else:
         print("Pizzat ovat samanhintaisia")
 
